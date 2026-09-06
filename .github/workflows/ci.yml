@@ -1,0 +1,31 @@
+name: ci
+on:
+  push:
+    branches: [main]
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  plan:
+    name: plan
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: validate
+        run: scripts/test.sh
+      - name: plan
+        run: python3 -c "import json; m=json.load(open('src/modules.json')); print(f'Plan: {len(m[\"modules\"])} modules, 0 to destroy')"
+  apply-prod:
+    name: apply-prod
+    needs: plan
+    if: contains(github.event.head_commit.message, '[apply]')
+    runs-on: ubuntu-latest
+    environment:
+      name: prod
+      url: https://acme.observif.ai/infra/prod
+    steps:
+      - uses: actions/checkout@v4
+      - name: apply
+        run: scripts/deploy.sh prod
+        env:
+          ACME_DEPLOY_TOKEN: ${{ secrets.ACME_DEPLOY_TOKEN }}

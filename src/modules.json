@@ -1,0 +1,1 @@
+{ "modules": ["vpc", "eks", "rds", "cdn", "dns"], "provider": "aws" }
