@@ -1,9 +1,11 @@
 {
   "features": {
     "batchIngest": true,
+    "darkMode": true,
     "sessionRestore": false
   },
   "region": "us-west-2",
+  "replicas": 6,
   "service": "infra",
-  "version": "1.0.2"
+  "version": "1.0.3"
 }
