@@ -14,7 +14,8 @@ jobs:
       - name: validate
         run: scripts/test.sh
       - name: plan
-        run: python3 -c "import json; m=json.load(open('src/modules.json')); print(f'Plan: {len(m[\"modules\"])} modules, 0 to destroy')"
+        run: |
+          python3 -c "import json; m=json.load(open('src/modules.json')); print('Plan:', len(m['modules']), 'modules to keep, 0 to destroy')"
   apply-prod:
     name: apply-prod
     needs: plan
