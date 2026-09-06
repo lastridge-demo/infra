@@ -1,6 +1,8 @@
 {
-  "service": "infra",
-  "version": "1.0.0",
+  "features": {
+    "batchIngest": true
+  },
   "region": "us-west-2",
-  "features": {}
+  "service": "infra",
+  "version": "1.0.1"
 }
