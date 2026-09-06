@@ -3,15 +3,15 @@
     "annualPricing": false,
     "auditLog": false,
     "batchIngest": false,
-    "cdnAssets": false,
+    "cdnAssets": true,
     "darkMode": true,
     "rateLimitV2": true,
     "sessionRestore": false,
     "taxPreview": true
   },
   "region": "us-west-2",
-  "replicas": 2,
+  "replicas": 3,
   "service": "infra",
-  "timeoutMs": 400,
-  "version": "1.0.13"
+  "timeoutMs": 1000,
+  "version": "1.0.14"
 }
