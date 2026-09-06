@@ -8,5 +8,5 @@
   "region": "us-west-2",
   "replicas": 6,
   "service": "infra",
-  "version": "1.0.5"
+  "version": "1.0.6"
 }
