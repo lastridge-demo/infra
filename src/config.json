@@ -1,8 +1,9 @@
 {
   "features": {
-    "batchIngest": true
+    "batchIngest": true,
+    "sessionRestore": false
   },
   "region": "us-west-2",
   "service": "infra",
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
