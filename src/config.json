@@ -1,12 +1,14 @@
 {
   "features": {
+    "annualPricing": false,
     "batchIngest": false,
     "cdnAssets": true,
     "darkMode": true,
     "sessionRestore": false
   },
   "region": "us-west-2",
-  "replicas": 6,
+  "replicas": 4,
   "service": "infra",
-  "version": "1.0.6"
+  "timeoutMs": 600,
+  "version": "1.0.7"
 }
