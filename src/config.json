@@ -4,11 +4,12 @@
     "batchIngest": false,
     "cdnAssets": true,
     "darkMode": true,
-    "sessionRestore": true
+    "sessionRestore": true,
+    "taxPreview": true
   },
   "region": "us-west-2",
   "replicas": 6,
   "service": "infra",
   "timeoutMs": 600,
-  "version": "1.0.8"
+  "version": "1.0.9"
 }
