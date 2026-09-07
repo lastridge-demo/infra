@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: prod
-      url: https://acme.observif.ai/infra/prod
+      url: https://acme.shipglance.com/infra/prod
     steps:
       - uses: actions/checkout@v4
       - name: apply
