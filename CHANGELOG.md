@@ -36,3 +36,4 @@
 - 1.0.34: infra: apply rds storage change
 - 1.0.35: infra(cdn): add /assets cache rule
 - 1.0.36: infra: apply rds storage change
+- 1.0.37: infra(cdn): add /assets cache rule
