@@ -7,11 +7,11 @@
     "darkMode": false,
     "rateLimitV2": true,
     "sessionRestore": true,
-    "taxPreview": false
+    "taxPreview": true
   },
   "region": "us-west-2",
   "replicas": 5,
   "service": "infra",
   "timeoutMs": 500,
-  "version": "1.0.109"
+  "version": "1.0.110"
 }
