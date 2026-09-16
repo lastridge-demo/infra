@@ -131,3 +131,4 @@
 - 1.0.129: infra(cdn): add /assets cache rule
 - 1.0.130: infra: apply cdn rule
 - 1.0.131: infra: apply rds storage change
+- 1.0.132: infra: apply rds storage change
