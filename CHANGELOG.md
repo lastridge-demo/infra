@@ -164,3 +164,4 @@
 - 1.0.162: infra: apply rds storage change
 - 1.0.163: infra: apply cdn rule
 - 1.0.164: infra(rds): raise storage autoscaling ceiling
+- 1.0.165: infra: apply rds storage change
