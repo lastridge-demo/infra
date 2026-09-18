@@ -13,5 +13,5 @@
   "replicas": 2,
   "service": "infra",
   "timeoutMs": 900,
-  "version": "1.0.176"
+  "version": "1.0.177"
 }
