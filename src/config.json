@@ -1,6 +1,6 @@
 {
   "features": {
-    "annualPricing": false,
+    "annualPricing": true,
     "auditLog": true,
     "batchIngest": false,
     "cdnAssets": true,
@@ -13,5 +13,5 @@
   "replicas": 3,
   "service": "infra",
   "timeoutMs": 800,
-  "version": "1.0.306"
+  "version": "1.0.307"
 }
