@@ -299,3 +299,4 @@
 - 1.0.297: infra: apply cdn rule
 - 1.0.298: infra(rds): raise storage autoscaling ceiling
 - 1.0.299: infra: apply rds storage change
+- 1.0.300: infra(cdn): add /assets cache rule
