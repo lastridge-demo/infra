@@ -379,3 +379,4 @@
 - 1.0.377: infra(rds): raise storage autoscaling ceiling
 - 1.0.378: infra: apply rds storage change
 - 1.0.379: infra(rds): raise storage autoscaling ceiling
+- 1.0.380: infra: apply rds storage change
