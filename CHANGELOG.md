@@ -360,3 +360,4 @@
 - 1.0.358: infra(cdn): add /assets cache rule
 - 1.0.359: infra(rds): raise storage autoscaling ceiling
 - 1.0.360: infra(rds): raise storage autoscaling ceiling
+- 1.0.361: infra(cdn): add /assets cache rule

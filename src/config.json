@@ -6,12 +6,12 @@
     "cdnAssets": true,
     "darkMode": false,
     "rateLimitV2": false,
-    "sessionRestore": false,
+    "sessionRestore": true,
     "taxPreview": true
   },
   "region": "us-west-2",
   "replicas": 6,
   "service": "infra",
-  "timeoutMs": 900,
-  "version": "1.0.360"
+  "timeoutMs": 1000,
+  "version": "1.0.361"
 }
