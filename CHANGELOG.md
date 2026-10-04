@@ -505,3 +505,4 @@
 - 1.0.503: infra: apply cdn rule
 - 1.0.504: infra(rds): raise storage autoscaling ceiling
 - 1.0.505: infra: apply cdn rule
+- 1.0.506: infra(rds): raise storage autoscaling ceiling
