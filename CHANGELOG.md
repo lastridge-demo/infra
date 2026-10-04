@@ -519,3 +519,4 @@
 - 1.0.517: infra: apply cdn rule
 - 1.0.518: infra: apply cdn rule
 - 1.0.519: infra: apply rds storage change
+- 1.0.520: infra: apply rds storage change
