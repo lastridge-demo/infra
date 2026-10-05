@@ -528,3 +528,4 @@
 - 1.0.526: infra: apply cdn rule
 - 1.0.527: infra: apply cdn rule
 - 1.0.528: infra(rds): raise storage autoscaling ceiling
+- 1.0.529: infra: apply rds storage change
