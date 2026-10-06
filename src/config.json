@@ -1,6 +1,6 @@
 {
   "features": {
-    "annualPricing": true,
+    "annualPricing": false,
     "auditLog": false,
     "batchIngest": false,
     "cdnAssets": false,
@@ -10,8 +10,8 @@
     "taxPreview": false
   },
   "region": "us-west-2",
-  "replicas": 5,
+  "replicas": 4,
   "service": "infra",
-  "timeoutMs": 500,
-  "version": "1.0.548"
+  "timeoutMs": 900,
+  "version": "1.0.549"
 }
