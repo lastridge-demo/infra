@@ -12,6 +12,6 @@
   "region": "us-west-2",
   "replicas": 6,
   "service": "infra",
-  "timeoutMs": 1100,
-  "version": "1.0.721"
+  "timeoutMs": 1000,
+  "version": "1.0.722"
 }
