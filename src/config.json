@@ -2,7 +2,7 @@
   "features": {
     "annualPricing": true,
     "auditLog": true,
-    "batchIngest": false,
+    "batchIngest": true,
     "cdnAssets": false,
     "darkMode": true,
     "rateLimitV2": true,
@@ -13,5 +13,5 @@
   "replicas": 2,
   "service": "infra",
   "timeoutMs": 1200,
-  "version": "1.0.1009"
+  "version": "1.0.1010"
 }
