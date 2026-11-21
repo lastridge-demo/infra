@@ -1438,3 +1438,4 @@
 - 1.0.1436: infra: apply cdn rule
 - 1.0.1437: infra(rds): raise storage autoscaling ceiling
 - 1.0.1438: infra: apply rds storage change
+- 1.0.1439: infra(cdn): add /assets cache rule
