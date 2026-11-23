@@ -3,7 +3,7 @@
     "annualPricing": true,
     "auditLog": false,
     "batchIngest": false,
-    "cdnAssets": false,
+    "cdnAssets": true,
     "darkMode": false,
     "rateLimitV2": true,
     "sessionRestore": false,
@@ -13,5 +13,5 @@
   "replicas": 2,
   "service": "infra",
   "timeoutMs": 400,
-  "version": "1.0.1478"
+  "version": "1.0.1479"
 }
